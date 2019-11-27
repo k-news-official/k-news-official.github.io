@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  padding: 5px;
+  background: #f1f1f1;
+}
+/* Header/Blog Title */
+.header {
+  padding: 5px;
+  text-align: center;
+  background: white;
+}
+.header h1 {
+  font-size: 40px;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Footer */
+.footer {
+  padding: 5px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>K News</h1>
+  <p  align = Right style="font-size:15px;" >No Non-Sense, Know Real News</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Archives</a>
+  <!-- <a href="#">Link</a>
+  <a href="#">Link</a> -->
+  <a href="https://veluribharath.github.io/knews" style="float:right">Nov 22 2019</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>English</h2>
+      <ul>
+        <li>“Maha” mess: BJP’s gambit failed, CM and Deputy CM resigned in less than 80 hours, says lack of majority as reason. Uddhav Thakrey likely next CM.</li>
+        <li>Supreme Court refuses secret ballet in floor test and orders to record the whole event in Maharastra assembly, floor test is to be conducted by Pro-tem speaker.</li>
+        <li>Parliament celebrates constitution day, opposition parties boycotted the event protesting political movements in Maharashtra.</li>
+        <li>Bindu Ammini, who visited Sabarimala temple in January, attacked with pepper spray in front of Kochi commissioner’s office.</li>
+        <li>SC verdict on Ayodhya: Sunni Central Waqf board decided not to file review petition on land dispute case.</li>
+        <li>26 hour countdown for the launch of earth imaging and mapping satellite CARTOSAT-3 along with other 13 nanosatellites.</li>
+        <li>48,000 TSRTC staff ends strike, but government refused taking them back. Increased police force in depots only to keep the staff out.</li>
+      </ul>
+      <p></p>
+    </div>
+  </div>
+
+  <div class="rightcolumn">
+    <div class="card" align = center>
+      <h2></h2>
+      <p>Hyderabad</p>
+      <p>Petrol ₹79.41/ltr</p>
+      <p>Diesel ₹71.73/ltr</p>
+    </div>
+    <div class="card" align = center>
+      <h2></h2>
+      <p>Gold ₹39,115/10gm</p>
+      <p>Silver ₹477.6/10gm</p>
+    </div>
+    <!--
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+    </div> -->
+    <div class="card">
+      <h3>Follow Us</h3>
+      <a href="https://www.instagram.com/k_news_official/" target="_blank"><img border="0" alt="Instagram" src="/images/instagram-new.png" width="100" height="100"></a>
+      <a href="https://www.facebook.com/K-News-101304534667834" target="_blank"><img border="0" alt="Facebook" src="/images/facebook.png" width="100" height="100"></a>
+    </div>
+    <div class="card">
+      <!-- Start of WebFreeCounter Code -->
+      <a href="https://www.webfreecounter.com/" target="_blank"><img src="https://www.webfreecounter.com/hit.php?id=gvuxkcko&nd=6&style=3" border="0" alt="free counter"></a>
+      <!-- End of WebFreeCounter Code -->
+    </div>
+  </div>
+</div>
+
+<!--<div class="footer">
+  <h2>Footer</h2>
+</div>-->
+
+</body>
+</html>
